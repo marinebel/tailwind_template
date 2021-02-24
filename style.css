@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* h1 {
+	margin: 2rem;
+	padding: 0 1rem;
+	background-color: blue;
+}
+
+@media screen and(min-width: 768px) {
+	h1 {
+		background-color:red;
+		padding: 0.75rem 1rem;
+	}
+} */
+
+.btnPrimary {
+	@apply px-4 py-2 m-8 text-white bg-green-600 border-2 border-green-600 rounded-md hover:text-green-600 hover:bg-white;
+}
